@@ -1,3 +1,7 @@
 h1{
     color: red;
 }
+.hero{
+    background-image: url("../image/cow\ 1.jpg");
+    height: 100vh;
+}
