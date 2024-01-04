@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 3%, 100% 50%, 63% 100%, 46% 100%, 0% 50%);
 }
 .hero h1{
     color: white;
@@ -28,10 +29,10 @@
     background-color: bisque;
     padding: 60px;
     border-style: dashed;
-    border-width: 15px;
-    border-color: yellow;
+    background: linear-gradient(pink);
+
 }
-.airticle h2{
+.airticle h2, #cow-tag h2{
     text-align: center;
     font-size: 48px;
     border-style: solid;
@@ -50,4 +51,19 @@
 }
 .airticle p .imp{
     font-size: 2em;
+    background-color: yellow;
+    display: inline;
+    width: 600px;
+}
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.cow-images div{
+    min-width: 300px;
+}
+.cow-images img{
+    width: 100%;
 }
