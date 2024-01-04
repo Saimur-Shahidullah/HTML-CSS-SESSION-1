@@ -1,7 +1,53 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .hero{
     background-image: url("../image/cow\ 1.jpg");
+    background-size: cover;
+    background-position: bottom center;
     height: 100vh;
+}
+.hero h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.airticle, #cow-tag{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: 60px auto;
+    background-color: bisque;
+    padding: 60px;
+    border-style: dashed;
+    border-width: 15px;
+    border-color: yellow;
+}
+.airticle h2{
+    text-align: center;
+    font-size: 48px;
+    border-style: solid;
+    border-width: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 20px;
+    border-color: yellow;
+    margin-bottom: 20px;
+
+
+}
+.airticle p{
+    font-size: 28px;
+}
+.airticle p .imp{
+    font-size: 2em;
 }
